@@ -1,0 +1,7 @@
+trainData/
+corpusPoems
+modelLSTM*
+model23
+*.zip
+__pycache__/
+.DS_Store
