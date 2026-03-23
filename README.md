@@ -2,9 +2,8 @@
 
 ## Implementation of a Modified Word2Vec Model for Bulgarian Language
 
-**Author:** Georgi H. Lazov
-**Course:** Information Retrieval and Deep Learning
-**Instructor:** Prof. Stoyan Mihov
+### Developed by Georgi H. Lazov
+#### A modified Word2Vec implementation with quadratic form parameter, trained on Bulgarian journalistic texts using negative sampling and optimized tensor operations.
 
 ---
 
