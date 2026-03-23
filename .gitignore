@@ -1,7 +1,32 @@
-trainData/
-corpusPoems
-modelLSTM*
-model23
-*.zip
+# Virtual environment
+venv/
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tempCodeRunnerFile.py
+test3
+test4.npy
+test5.npy
+test6.npy
+
+# Task/submission files
+Task.pdf
+*.zip

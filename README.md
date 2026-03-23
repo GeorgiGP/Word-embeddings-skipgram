@@ -3,10 +3,8 @@
 ## Implementation of a Modified Word2Vec Model for Bulgarian Language
 
 **Author:** Georgi H. Lazov
-**Student ID:** 0MI0600299
 **Course:** Information Retrieval and Deep Learning
 **Instructor:** Prof. Stoyan Mihov
-**Semester:** Winter 2025/2026
 
 ---
 
@@ -230,7 +228,7 @@ def stochasticGradientDescend(data, U0, V0, W0, contextFunction,
 
 After training, embeddings were reduced to 2D using SVD and normalized. The figure below shows the arrangement of selected words:
 
-![Word Embeddings Visualization](a2/embeddings.png)
+![Word Embeddings Visualization](src/embeddings.png)
 
 ### 5.2 Semantic Clustering
 
@@ -301,10 +299,9 @@ scikit-learn
 ### 8.2 Project Structure
 
 ```
-HW2/
+root/
 ├── README.md                 # This document
-├── Tasks_1_and_2.pdf        # Theoretical tasks
-├── a2/
+├── src/
 │   ├── grads.py             # Loss and gradient functions
 │   ├── sampling.py          # Sampling functions
 │   ├── w2v_sgd.py           # SGD implementation
@@ -315,20 +312,19 @@ HW2/
 │   ├── w2v-V.npy            # Trained V matrix
 │   ├── w2v-W.npy            # Trained W matrix
 │   └── embeddings.png       # Visualization
-└── FN0MI0600299/            # Final submission version
+└── solution/                # Final implementation
 ```
 
 ### 8.3 Execution
 
 ```bash
 # Create and activate virtual environment (first time only)
-cd HW2
 python3 -m venv venv
 source venv/bin/activate
 pip install numpy matplotlib scikit-learn nltk
 
 # Navigate to working directory
-cd a2
+cd src
 
 # Run with batched gradients (default)
 python run.py
@@ -354,4 +350,4 @@ python test.py 6  # Test SGD
 
 ---
 
-*This document was created as part of Homework Assignment 2 for the course "Information Retrieval and Deep Learning", Faculty of Mathematics and Informatics, Sofia University "St. Kliment Ohridski", 2025/2026*
+*This project was developed as part of the course "Information Retrieval and Deep Learning", Faculty of Mathematics and Informatics, Sofia University "St. Kliment Ohridski", 2025/2026*
