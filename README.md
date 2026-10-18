@@ -295,26 +295,7 @@ matplotlib
 scikit-learn
 ```
 
-### 8.2 Project Structure
-
-```
-root/
-├── README.md                 # This document
-├── src/
-│   ├── grads.py             # Loss and gradient functions
-│   ├── sampling.py          # Sampling functions
-│   ├── w2v_sgd.py           # SGD implementation
-│   ├── utils.py             # Utility functions
-│   ├── run.py               # Main training script
-│   ├── test.py              # Tests
-│   ├── w2v-U.npy            # Trained U matrix
-│   ├── w2v-V.npy            # Trained V matrix
-│   ├── w2v-W.npy            # Trained W matrix
-│   └── embeddings.png       # Visualization
-└── solution/                # Final implementation
-```
-
-### 8.3 Execution
+### 8.2 Execution
 
 ```bash
 # Create and activate virtual environment (first time only)
